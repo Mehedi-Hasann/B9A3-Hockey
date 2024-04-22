@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B9A3 Hockeys</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a273d16dd9.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+        <nav class="container mx-auto px-4 lg:px-6">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="font-semibold text-orange-600">Home</a></li>
+                <li><a class="font-semibold opacity-85">About</a></li>
+                <li><a class="font-semibold opacity-85">Pages</a></li>
+                <li><a class="font-semibold opacity-85">Blog</a></li>
+                <li><a class="font-semibold opacity-85">Contact</a></li> 
+                </ul>
+              </div>
+              <h1 class="text-4xl font-bold">Hockey<span class="text-orange-600">’</span>s</h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-semibold text-orange-600 opacity-85">Home</a></li>
+                <li><a class="font-semibold opacity-85">About</a></li>
+                <li><a class="font-semibold opacity-85">Pages</a></li>
+                <li><a class="font-semibold opacity-85">Blog</a></li>
+                <li><a class="font-semibold opacity-85">Contact</a></li> 
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <div class="flex space-x-7">
+                <img src="Images/search-icon.png" class="h-[100%] mt-4 hidden lg:flex" alt="">
+                <a class="btn btn-error text-white">Get Ticket</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="container mx-auto px-4 lg:px-6">
+          <div class="carousel w-full rounded-lg">
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="w-full">
+                <img src="Images/1.png" class="w-full" />
+              </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div>
+              <div class="absolute lg:right-32 bottom-0 lg:bottom-10 bg-black text-white  p-2 lg:p-6 rounded-lg w-[92%] lg:w-[35%]">
+                <h1 class="text-2xl lg:text-3xl font-bold opacity-95">Meet all the heroes from the field</h1>
+                <p class="mt-3 opacity-65">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <main class="mt-8">
+                            <!-- progress section  -->
+      <section class="container mx-auto px-4 lg:px-6 flex flex-col items-center justify-center">
+        <div class="divider"></div>
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="font-bold text-3xl mb-6">Professional Hockeys Club</h1>
+          <p class="opacity-80 w-[78%] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="divider"></div>
+        <div class="flex flex-col lg:flex-row mt-10 lg:mt-20 justify-between px-10">
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <div class="radial-progress text-red-500 font-extrabold" style="--value:87;" role="progressbar"><div class="text-black">87%</div></div>
+            <h3 class="text-xl">Prayer Facility</h3>
+            <p class="opacity-80 w-[85%] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <div class="radial-progress text-emerald-400 font-extrabold" style="--value:95;" role="progressbar"><div class="text-black">95%</div></div>
+            <h3 class="text-xl">Prayer Facility</h3>
+            <p class="opacity-80 w-[85%] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <div class="radial-progress text-amber-400 font-extrabold" style="--value:90;" role="progressbar"><div class="text-black">90%</div></div>
+            <h3 class="text-xl">Prayer Facility</h3>
+            <p class="opacity-80 w-[85%] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+          <div class="flex flex-col items-center justify-center space-y-3">
+            <div class="radial-progress text-blue-500 font-extrabold" style="--value:80;" role="progressbar"><div class="text-black">80%</div></div>
+            <h3 class="text-xl">Prayer Facility</h3>
+            <p class="opacity-80 w-[85%] text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+      </section>
+                            <!-- Program Sections -->
+      <section>
+               <!-- heading  -->
+        <div class="container mx-auto px-4 lg:px-6 flex flex-col items-center justify-center mb-10">
+          <h1 class="font-bold text-3xl mb-6">Program Sections</h1>
+          <p class="opacity-80 w-[40%] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <div class="divider"></div>
+        </div>
+                <!-- grid  -->
+        <div class="container mx-auto px-4 lg:px-6 flex flex-col items-center justify-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+              <div class="flex-1 bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/2.png)] rounded-xl text-white
+              flex-col bg-cover h-[50vh]  lg:px-8 mx-auto justify-center space-y-3 p-4">
+                  <h1 class="text-xl lg:text-3xl lg:mt-40 font-bold">Junior Program</h1>
+                  <p class="lg:w-[85%] opacity-85">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <button class="btn btn-error text-white">Register Now!</button>
+              </div>
+              <div class="flex-1 bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/3.png)] rounded-xl text-white
+              flex-col bg-cover  h-[50vh] w-[100%] lg:px-8 mx-auto justify-center space-y-3 p-4">
+                  <h1 class="text-xl lg:text-3xl lg:mt-40 font-bold">Teenager Program</h1>
+                  <p class="lg:w-[85%] opacity-85">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <button class="btn btn-error text-white">Register Now!</button>
+              </div>
+              <div class="flex-1 bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(images/4.png)] rounded-xl text-white
+              flex-col bg-cover  h-[50vh] w-[100%] lg:px-8 mx-auto justify-center space-y-5 lg:col-span-2 p-4">
+                  <h1 class="text-xl lg:text-3xl lg:mt-40 font-bold">Professional Program</h1>
+                  <p class="lg:w-[40%] opacity-85">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                  <button class="btn btn-error text-white">Register Now!</button>
+              </div>
+            </div>
+            <div class="divider lg:my-16"></div>
+        </div>
+      </section>
+                            <!-- new product  -->
+      <section>
+        <div>
+          <div class="flex flex-col items-center justify-center w-[90%] mx-auto">
+            <h1 class="font-bold text-3xl mb-6">Our New Products</h1>
+            <p class="opacity-80 w-[40%] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="divider my-8"></div>
+          </div>
+        </div>
+        <div class="container lg:px-6 flex flex-col mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+              <!-- card 1  -->
+              <div class="card lg:card-side bg-base-100 space-y-4 shadow-lg p-4 lg:p-4">
+                <figure class="">
+                  <img src="Images/5.png" class="w-72 lg:w-full" alt="Movie"/>
+                </figure>
+
+                <div class="flex space-y-3 flex-col lg:w-[80%] pl-6">
+                    <div class="flex flex-row items-center space-x-7">
+                        <div class="rating flex items-center space-x-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <h1>5</h1>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <i class="fa-regular fa-eye"></i>
+                          <h1>20</h1>
+                        </div>
+                        <div class="flex items-center space-x-2" >
+                          <i class="fa-regular fa-heart"></i>
+                          <h1>200</h1>
+                        </div>
+                    </div>
+                    <div class="lg:w-[90%]">
+                      <h3 class="font-bold">World Cup Flags Football</h3>
+                      <p class="opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+                      <div>
+                        <h4 class="text-red-500 font-bold mr-4">Price-$22.00</h4>
+                      </div>
+                      <div class="flex items-center lg:space-x-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="opacity-70">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+               <!-- card 2  -->
+               <div class="card lg:card-side bg-base-100 space-y-4 shadow-lg p-4 lg:p-4">
+                <figure><img class="w-72 lg:w-full" src="Images/6.png" alt="Movie"/></figure>
+
+                <div class="flex space-y-3 flex-col lg:w-[80%] pl-6">
+                    <div class="flex flex-row items-center space-x-7">
+                        <div class="rating flex items-center space-x-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <h1>5</h1>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <i class="fa-regular fa-eye"></i>
+                          <h1>20</h1>
+                        </div>
+                        <div class="flex items-center space-x-2" >
+                          <i class="fa-regular fa-heart"></i>
+                          <h1>200</h1>
+                        </div>
+                    </div>
+                    <div class="lg:w-[90%]">
+                      <h3 class="font-bold">World Cup Flags Football</h3>
+                      <p class="opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+                      <div>
+                        <h4 class="text-red-500 font-bold mr-4">Price-$22.00</h4>
+                      </div>
+                      <div class="flex items-center lg:space-x-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="opacity-70">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <!-- card 3  -->
+              <div class="card lg:card-side bg-base-100 space-y-4 shadow-lg p-4 lg:p-4">
+                <figure><img class="w-72 lg:w-full" src="Images/7.png" alt="Movie"/></figure>
+
+                <div class="flex space-y-3 flex-col lg:w-[80%] pl-6">
+                    <div class="flex flex-row items-center space-x-7">
+                        <div class="rating flex items-center space-x-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <h1>5</h1>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <i class="fa-regular fa-eye"></i>
+                          <h1>20</h1>
+                        </div>
+                        <div class="flex items-center space-x-2" >
+                          <i class="fa-regular fa-heart"></i>
+                          <h1>200</h1>
+                        </div>
+                    </div>
+                    <div class="lg:w-[90%]">
+                      <h3 class="font-bold">World Cup Flags Football</h3>
+                      <p class="opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+                      <div>
+                        <h4 class="text-red-500 font-bold mr-4">Price-$22.00</h4>
+                      </div>
+                      <div class="flex items-center lg:space-x-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="opacity-70">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <!-- card 4  -->
+              <div class="card lg:card-side bg-base-100 space-y-4 shadow-lg p-4 lg:p-4">
+                <figure><img class="w-72 lg:w-full" src="Images/8.png" alt="Movie"/></figure>
+
+                <div class="flex space-y-3 flex-col lg:w-[80%] pl-6">
+                    <div class="flex flex-row items-center space-x-7">
+                        <div class="rating flex items-center space-x-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <h1>5</h1>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <i class="fa-regular fa-eye"></i>
+                          <h1>20</h1>
+                        </div>
+                        <div class="flex items-center space-x-2" >
+                          <i class="fa-regular fa-heart"></i>
+                          <h1>200</h1>
+                        </div>
+                    </div>
+                    <div class="lg:w-[90%]">
+                      <h3 class="font-bold">World Cup Flags Football</h3>
+                      <p class="opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+                      <div>
+                        <h4 class="text-red-500 font-bold mr-4">Price-$22.00</h4>
+                      </div>
+                      <div class="flex items-center lg:space-x-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="opacity-70">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <!-- card 5  -->
+              <div class="card lg:card-side bg-base-100 space-y-4 shadow-lg p-4 lg:p-4">
+                <figure><img class="w-72 lg:w-full" src="Images/9.png" alt="Movie"/></figure>
+
+                <div class="flex space-y-3 flex-col lg:w-[80%] pl-6">
+                    <div class="flex flex-row items-center space-x-7">
+                        <div class="rating flex items-center space-x-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <h1>5</h1>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <i class="fa-regular fa-eye"></i>
+                          <h1>20</h1>
+                        </div>
+                        <div class="flex items-center space-x-2" >
+                          <i class="fa-regular fa-heart"></i>
+                          <h1>200</h1>
+                        </div>
+                    </div>
+                    <div class="lg:w-[90%]">
+                      <h3 class="font-bold">World Cup Flags Football</h3>
+                      <p class="opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+                      <div>
+                        <h4 class="text-red-500 font-bold mr-4">Price-$22.00</h4>
+                      </div>
+                      <div class="flex items-center lg:space-x-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="opacity-70">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+              <!-- card 6  -->
+              <div class="card lg:card-side bg-base-100 space-y-4 shadow-lg p-4 lg:p-4">
+                <figure><img class="w-72 lg:w-full" src="Images/10.png" alt="Movie"/></figure>
+
+                <div class="flex space-y-3 flex-col lg:w-[80%] pl-6">
+                    <div class="flex flex-row items-center space-x-7">
+                        <div class="rating flex items-center space-x-2">
+                          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          <h1>5</h1>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <i class="fa-regular fa-eye"></i>
+                          <h1>20</h1>
+                        </div>
+                        <div class="flex items-center space-x-2" >
+                          <i class="fa-regular fa-heart"></i>
+                          <h1>200</h1>
+                        </div>
+                    </div>
+                    <div class="lg:w-[90%]">
+                      <h3 class="font-bold">World Cup Flags Football</h3>
+                      <p class="opacity-70">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+                      <div>
+                        <h4 class="text-red-500 font-bold mr-4">Price-$22.00</h4>
+                      </div>
+                      <div class="flex items-center lg:space-x-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="opacity-70">Delivery Fee : Free</p>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+        </div>
+      </section>
+                            <!-- Clients Question -->
+      <section class="mt-16">
+        <div class="container mx-auto px-4 lg:px-6 flex flex-col items-center justify-center">
+              <div class="divider mb-12"></div>
+              <h2 class="font-bold text-3xl mb-5">Clients Question</h2>
+              <p class="opacity-80 w-[78%] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              <div class="divider"></div>
+        </div>
+        <div class="mt-8 border-red-800 mb-16">
+          <div class="container mx-auto  rounded-xl border-2">
+            <div class="card lg:card-side p-10">
+              <figure><img src="Images/11.png" alt="Album"/></figure>
+              <div class="card-body">
+                <div class="collapse collapse-plus bg-base-200">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Hockey Training
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Private Lessons
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Ski Touring
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Booking
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-plus bg-base-200">
+                  <input type="radio" name="my-accordion-3" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Pricings
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>hello</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                            <!-- Get In Touch -->
+      <section>
+                  <!-- heading section  -->
+          <div class="container mx-auto px-4 lg:px-6 flex flex-col items-center justify-center">
+            <div class="divider mb-12"></div>
+            <h2 class="font-bold text-3xl mb-8">Get In Touch</h2>
+            <p class="opacity-80 w-[78%] text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="divider"></div>
+          </div>
+                  <!-- touch section  -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 mt-4 lg:mt-10 container mx-auto lg:px-6 items-center justify-center">
+                                      <!-- card  -->
+              <div class="space-y-5 p-10 shadow-sm border-2 rounded-lg flex flex-col">
+                  <!-- card 1  -->
+                <div class="bg-[#BCED6D1A] px-10 py-8 space-y-4 rounded-xl">
+                  <img class="font-bold" src="Images/phone.png" alt="">
+                  <h3 class="opacity-60 text-xl">Phone Number:</h3>
+                  <h3 class="font-bold text-2xl">(+62) 123-321-543</h3>
+                </div>
+                     <!-- card 2  -->
+                <div class="bg-[#FDDD5F1A] px-10 py-8 space-y-4 rounded-xl">
+                  <img class="font-bold" src="Images/message.png" alt="">
+                  <h3 class="opacity-60 text-xl">Phone Number:</h3>
+                  <h3 class="font-bold text-2xl">(+62) 123-321-543</h3>
+                </div>
+                      <!-- card 3  -->
+                <div class="bg-[#629CF31A] px-10 py-8 space-y-4 rounded-xl">
+                  <img class="font-bold" src="Images/location.png" alt="">
+                  <h3 class="opacity-60 text-xl">Phone Number:</h3>
+                  <h3 class="font-bold text-2xl">(+62) 123-321-543</h3>
+                </div>
+              </div>
+                                      <!-- right-form  -->
+              <div class="ml-5 lg:col-span-2">
+                  <div class="grid gap-5 grid-cols-1 lg:grid-cols-2">
+                    <div class="space-y-2">
+                      <label for="" class="font-bold">Your Name</label>
+                      <input type="text" placeholder="Enter your full name" class="input input-bordered w-full bg-[#13131808]" />
+                    </div>
+                    <div class="space-y-2">
+                      <label for="" class="font-bold">Your Email</label>
+                    <input type="text" placeholder="Enter your email" class="input input-bordered w-full bg-[#13131808]" />
+                    </div>
+                    <div class="space-y-2">
+                      <label for="" class="font-bold">Subject</label>
+                      <input type="text" placeholder="Enter your subject" class="input input-bordered w-full bg-[#13131808]" />
+                    </div>
+                    <div class="space-y-2">
+                      <label for="" class="font-bold">Phone Number</label>
+                    <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full bg-[#13131808]" />
+                    </div>
+                  </div>
+                  <div class="mt-5 space-y-2">
+                    <label for="" class="font-bold">Message</label>
+                    <textarea class="textarea textarea-bordered w-full bg-[#13131808]" rows="15" placeholder="Write your message"></textarea>
+                  </div>
+                  <button class="btn btn-error w-full text-white mt-3 font-bold">Send Message</button>
+              </div>
+          </div>
+                  <!-- social icon  -->
+          <div class="container mx-auto bg-[#13131808] rounded-xl my-10">
+              <div class="flex flex-col py-10 items-center">
+                <h1 class="font-bold text-2xl mb-8">Social Media</h1>
+                <div class="flex space-x-10">
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </div>
+              </div>
+          </div>
+      </section>
+    </main>
+    
+    <footer>
+        <div class="bg-black text-white p-5 gap-10 lg:p-20 flex flex-col lg:flex-row items-center justify-center">
+
+            <div class=" flex-1 flex flex-col items-center lg:items-start w-[50%]">
+              <h1 class="text-2xl font-bold mb-3">Get In Touch</h1>
+              <p class="opacity-80 lg:w-2/3 mb-3 text-center lg:text-start">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+              <div class="flex items-center space-x-5 mb-2">
+                <i class="fa-regular fa-envelope fa-xl bg-red-700 text-red-600"></i>
+                <h3>hockeys@support.com</h3>
+              </div>
+              <div class="flex items-center space-x-5">
+                <i class="fa-solid fa-phone fa-xl text-red-600"></i>
+                <h3>(+62) 123-321-543</h3>
+              </div>
+            </div>
+
+            <div class="flex  flex-1 justify-between items-center text-center w-[50%] lg:mr-72">
+                <div class="flex flex-col lg:items-start">
+                    <h6 class="font-bold mb-5 text-xl">Company</h6> 
+                    <a class="opacity-75">About us</a>
+                    <a class="opacity-75">Leadership</a>
+                    <a class="opacity-75">Careers</a>
+                    <a class="opacity-75">News & Article</a>
+                    <a class="opacity-75">Legal Notice</a>
+                </div>
+                <div class="flex flex-col lg:items-start">
+                    <h6 class="font-bold mb-5 text-xl">Support</h6> 
+                    <a class="opacity-75">Help Center</a>
+                    <a class="opacity-75">FAQ</a>
+                    <a class="opacity-75">Ticket Support</a>
+                    <a class="opacity-75">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="flex flex-col flex-1 items-center lg:items-start text-center w-[72%]">
+              <h6 class="font-bold mb-5 text-xl">Services</h6> 
+              <a class="opacity-75">Academy</a>
+              <a class="opacity-75">Group Lesson</a>
+              <a class="opacity-75">Private Lesson</a>
+              <a class="opacity-75">Hockeys for kids</a>
+              <a class="opacity-75">Hockeys for Adult</a>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
